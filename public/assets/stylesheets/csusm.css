@@ -1,0 +1,54 @@
+a,
+a:hover {
+	text-decoration: none;
+}
+
+#header > .row {
+	background: #002E5A;
+	border-bottom: none;
+}
+
+#header .logo {
+    height: 50px;
+    margin-top: 10px;
+}
+
+.navbar-default .navbar-nav>li>a:hover, 
+.navbar-default .navbar-nav>li>a:focus {
+	text-decoration: none;  
+}
+
+.navbar > .top-bar {
+    background: #f8f8f8 !important;
+    border-top: none;
+    border-bottom: none;
+}
+
+#content h2 > span.translation_missing {
+	display: none;
+}
+
+#header h1 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#content .search h2 {
+  display: none;
+}
+
+/* Accessibility - Makes the skip to main content link white on focus */
+div.skipnav a.sr-only.sr-only-focusable:focus {
+    color: white !important;
+    overflow: visible !important;
+    clip: auto !important;
+}
+
+/* Accessibility - Puts border around CSUSM logo when tab active */
+#header .logo:focus {
+    outline: 4px solid #fff;
+}
+
+/* 07/03/26 Khuong: (1) A lot of lines were deleted because they no longer apply.  For example,
+ * we are not using front-page and carousel any more.  (2) Many UI elements have changed mainly
+ * because this CSS was created for ArchivesSpace v.2, and we are now on v.4. */
